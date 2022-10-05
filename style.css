@@ -1,93 +1,90 @@
 /* global */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 * {
-    list-style: none;
+  list-style: none;
 }
 
-.grid-2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color:whitesmoke;
-    color: #1b1b1b;
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+  color: #1b1b1b;
 }
-small{
-    font-size: smaller;
-    color: #797979;
-}
-
-h2,.white{
-    color: rgb(0, 0, 0);
+small {
+  font-size: smaller;
+  color: #797979;
 }
 
-.round{
-    border-radius: 50%;
-    max-width: 7rem;
-    max-height: 7rem;
+h2,
+.white {
+  color: rgb(0, 0, 0);
 }
 
-a{
-    color: #3468CC;
-    /* color: #7A7C80; */
-    text-decoration: none;
+.round {
+  border-radius: 50%;
+  max-width: 7rem;
+  max-height: 7rem;
+}
+
+a {
+  color: #3468cc;
+  /* color: #7A7C80; */
+  text-decoration: none;
 }
 
 /* section 1 */
-.section-1{
-    padding-top: 10vh;
-    text-align: center;
+.section-1 {
+  padding-top: 10vh;
+  text-align: center;
 }
 
-.section-1 p{
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin:0;
+.section-1 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
 }
 
-.section-1 h2{
-    font-size: 1.7rem;
-    margin-bottom: 10px;
+.section-1 h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
 }
 
-.section-1 a{
-    font-size: 1.5rem;
-    padding: 10px;
+.section-1 a {
+  font-size: 1.5rem;
+  padding: 10px;
 }
 .section-1 li {
-    text-align: left;
-    margin-left: 2vw;
-    margin-right: 2vw;
+  text-align: left;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 /* section 2 */
-.section-2{
-    padding-top: 13vh;
-    width: 80%;
+.section-2 {
+  padding-top: 13vh;
+  width: 80%;
 }
 
-.section-2 h2{
-    font-size: 1.7rem;
-    
+.section-2 h2 {
+  font-size: 1.7rem;
 }
 
-.section-2 p{
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin:0;
+.section-2 p {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin: 0;
 }
 
-.section-2 a{
-    display: block;
-    padding: 5px;
-    font-size: 1.2rem;
-    padding-left: 0;
-    
+.section-2 a {
+  display: block;
+  padding: 5px;
+  font-size: 1.2rem;
+  padding-left: 0;
 }
 /* section 3 */
 /* .section-3{
@@ -98,7 +95,7 @@ a{
     grid-gap: 10px;
     line-height:0;
     -webkit-column-count:5; /* split it into 5 columns */
-    /* -webkit-column-gap:5px; 
+/* -webkit-column-gap:5px; 
     -moz-column-count:5;
     -moz-column-gap:5px;
     column-count:5;
@@ -114,276 +111,284 @@ a{
 } */
 
 @media (max-width: 1200px) {
-    #section-3 {
-     -moz-column-count:    4;
-     -webkit-column-count: 4;
-     column-count:         4;
-    }
- }
- @media (max-width: 1000px) {
-    #section-3 {
-     -moz-column-count:    3;
-     -webkit-column-count: 3;
-     column-count:         3;
-    }
- }
- @media (max-width: 800px) {
-    #section-3 {
-     -moz-column-count:    2;
-     -webkit-column-count: 2;
-     column-count:         2;
-    }
- }
+  #section-3 {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+@media (max-width: 1000px) {
+  #section-3 {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media (max-width: 800px) {
+  #section-3 {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
 /* animations / utilities */
-.section-2 a:hover{
-    /* font-size: 1.3rem; */
-    color: rgb(37, 37, 37);
-    cursor: pointer;
-    transition: 0.2s;
+.section-2 a:hover {
+  /* font-size: 1.3rem; */
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.section-1 a:hover{
-    color: rgb(37, 37, 37);
-    cursor: pointer;
-    transition: 0.3s;
+.section-1 a:hover {
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.white:hover{
-    position: relative;
-    padding-left: 10px;
+.white:hover {
+  position: relative;
+  padding-left: 10px;
 }
-.title-main{
-    font-family: 'Carter One', cursive;
-    color: black;
+.title-main {
+  font-family: "Carter One", cursive;
+  color: black;
 }
 
 .bar {
-    background: #c5c5c5;
-    display: block;
-    height: 0.,5px;
-    border: 0,5px solid rgba(241, 241, 241, 0.3);
-    border-radius: 3px;
-    overflow: hidden;
-    
+  background: #c5c5c5;
+  display: block;
+  height: 0, 5px;
+  border: 0, 5px solid rgba(241, 241, 241, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
 }
 .bar span {
-height: 3px;
-float: left;
-background: #3468CC;
+  height: 3px;
+  float: left;
+  background: #3468cc;
 }
 
 .html {
-    width: 50%;
-    animation: html 2s;
+  width: 70%;
+  animation: html 2s;
 }
 .css {
-    width: 30%;
-    animation: css 2s;
+  width: 70%;
+  animation: css 2s;
 }
 .angular {
-    width: 40%;
-    animation: angular 2s;
+  width: 30%;
+  animation: angular 2s;
 }
-.ionic{
-    width: 40%;
-    animation: ionic 2s;
+.ionic {
+  width: 30%;
+  animation: ionic 2s;
 }
 .design {
-    width: 70%;
-    animation: design 2s;
+  width: 70%;
+  animation: design 2s;
 }
-.cura {
-    width: 85%;
-    animation: cura 2s;
+.react {
+  width: 30%;
+  animation: react 2s;
 }
 .print {
-    width: 85%;
-    animation: print 2s;
+  width: 85%;
+  animation: print 2s;
 }
 
 @keyframes html {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:50%;
-    }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
 }
 @keyframes css {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:30%;
-    }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
 }
 @keyframes angular {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:40%;
-    }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
 }
 @keyframes ionic {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:40%;
-    }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
 }
 @keyframes design {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:70%;
-    }   
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
 }
-@keyframes cura {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:85%;
-    }
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
 }
 @keyframes print {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:85%;
-    }
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
 }
 /* media queres */
-@media(max-width:780px){
-    .grid-2{
-        grid-template-columns: 1fr;
-    }
-    .section-1{
-        padding:0;
-        padding-top: 5rem;
-    }
-    .section-2{
-        padding: 0;
-        padding-left: 1.5rem;
-        padding-top: 2rem;
-    }
+@media (max-width: 780px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-1 {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .section-2 {
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+  }
 }
-
 
 /* Image PopUp*/
 
 #myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+#myImg:hover {
+  opacity: 0.7;
+}
+
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
   }
-  
-  #myImg:hover {opacity: 0.7;}
-  
-  
-  #myImg2 {
-  
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  to {
+    -webkit-transform: scale(1);
   }
-  
-  #myImg2:hover {opacity: 0.7;}
-  
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
   }
-  
-  /* Modal Content (image) */
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
   .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
   }
-  
-  /* Caption of Modal Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-  }
-  
-  /* Add Animation */
-  .modal-content, #caption {  
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-  }
-  
-  @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-  }
-  
-  @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-  }
-  
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
+}
 
-  .grid { 
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
-    align-items: center;
-    }
-  .grid img {
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-    max-width: 100%;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+}
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+}
 
 /* @keyframes slide {
   from { background-position-x: 0; }
