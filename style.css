@@ -13,17 +13,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background-color: whitesmoke;
-  color: #1b1b1b;
+  background: #4f04c2;
+  color: #ffffff;
 }
 small {
   font-size: smaller;
-  color: #797979;
-}
-
-h2,
-.white {
-  color: rgb(0, 0, 0);
+  color: #9f9f9f;
 }
 
 .round {
@@ -33,9 +28,11 @@ h2,
 }
 
 a {
-  color: #3468cc;
-  /* color: #7A7C80; */
+  color: #ffffff;
   text-decoration: none;
+}
+a:hover {
+  color: #727272;
 }
 
 /* section 1 */
@@ -86,29 +83,6 @@ a {
   font-size: 1.2rem;
   padding-left: 0;
 }
-/* section 3 */
-/* .section-3{
-    height: auto;
-    margin: 2vw;
-    width: 96%;
-    grid-template-columns: repeat(10,1fr);
-    grid-gap: 10px;
-    line-height:0;
-    -webkit-column-count:5; /* split it into 5 columns */
-/* -webkit-column-gap:5px; 
-    -moz-column-count:5;
-    -moz-column-gap:5px;
-    column-count:5;
-    column-gap:5px;
-  
-}
-.section-3 img {
-   
-
-    width: 100% !important;
-    
-    margin-bottom:5px; 
-} */
 
 @media (max-width: 1200px) {
   #section-3 {
@@ -134,13 +108,12 @@ a {
 /* animations / utilities */
 .section-2 a:hover {
   /* font-size: 1.3rem; */
-  color: rgb(37, 37, 37);
+
   cursor: pointer;
   transition: 0.2s;
 }
 
 .section-1 a:hover {
-  color: rgb(37, 37, 37);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -151,21 +124,22 @@ a {
 }
 .title-main {
   font-family: "Carter One", cursive;
-  color: black;
+  color: white;
 }
 
 .bar {
-  background: #c5c5c5;
+  background: #92beab;
+
   display: block;
-  height: 0, 5px;
-  border: 0, 5px solid rgba(241, 241, 241, 0.3);
-  border-radius: 3px;
+  height: 0, 9px;
+  /* border: 0, 5px solid rgba(241, 241, 241, 0.3); */
+  border-radius: 7px;
   overflow: hidden;
 }
 .bar span {
-  height: 3px;
+  height: 15px;
   float: left;
-  background: #3468cc;
+  background: #eb5f50;
 }
 
 .html {
