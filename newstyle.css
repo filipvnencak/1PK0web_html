@@ -13,9 +13,6 @@ section {
   align-content: center;
   min-height: 100vh;
 }
-p {
-  font-size: larger;
-}
 a {
   color: #ffffff;
   text-decoration: none;
