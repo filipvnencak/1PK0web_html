@@ -58,7 +58,7 @@ a {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
-  transition: all 1s;
+  transition: all 1.3s;
 }
 
 .show {
@@ -105,6 +105,13 @@ a {
 }
 .skill:nth-child(7) {
   transition-delay: 1000ms;
+}
+
+#footer {
+  text-align: center;
+  color: #444445;
+  max-height: 0;
+  height: 0;
 }
 
 @media (prefers-reduced-motion) {
